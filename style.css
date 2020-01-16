@@ -1,0 +1,13 @@
+.tooltip {
+	position: relative ;
+	bottom: 1350px; right: -350px; 
+}
+
+.tooltip-content {
+	display: none; 
+	background-color: blue;
+}
+
+.icon:hover + .tooltip-content {
+	display: block;
+}
